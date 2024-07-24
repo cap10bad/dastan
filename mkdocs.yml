@@ -1,0 +1,5 @@
+site_name: Myriad Predictions Market
+nav:
+  - Home: index.md
+plugins:
+  - techdocs-core
