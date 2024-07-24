@@ -1,3 +1,0 @@
-Myriad Prediction Market
-
-Home

@@ -1,5 +1,62 @@
 site_name: myriad-prediction-market
-nav:
-  - Home: index.md
+site_description: Myriad Prediction Market
+
 plugins:
   - techdocs-core
+
+nav:
+  - Overview:
+    - What is Myriad Prediction Markets: 'overview/what-is-myriad-prediction-markets.md' # Intro
+    - How it Works: 'overview/how-it-works.md' # Details on how it works
+    - Why Myriad: 'overview/why-myriad.md' # Why we're better
+    - Arbitrum One: 'overview/arbitrum-one.md'
+    - Roadmap: 'overview/roadmap.md'
+  - Getting Started:
+    - Smart Accounts: 'getting-started/smart-accounts.md' # Details on thirdweb smart account, how a user gets a wallet and a smart account, links to thirdweb management
+    - Signing Up: 'getting-started/signing-up.md' # How to sign up with DASTAN
+    - Logging In: 'getting-started/logging-in.md' # How to log in
+  - Depositing to Your Account: # Details on each method
+    - Moonpay: 'depositing-to-your-account/moonpay.md'
+    - USDC: 'depositing-to-your-account/usdc.md'
+    - ETH: 'depositing-to-your-account/eth.md'
+    - Coinbase: 'depositing-to-your-account/coinbase.md'
+    - Paypal: 'depositing-to-your-account/paypal.md'
+    - Robinhood: 'depositing-to-your-account/robinhood.md'
+  - Trading:
+    - Browsing Markets: 'trading/browsing-markets.md' # Understanding the UI/UX in general
+    - Buying Shares: 'trading/buying-shares.md'
+    - Selling Shares: 'trading/selling-shares.md'
+    - Trading Fees: 'trading/trading-fees.md'
+  - Automated Market Maker (AMM):
+    - What is an AMM: 'amm/what-is-an-amm.md'
+    - How AMMs Work: 'amm/how-amms-work.md' # Details on the mechanics of AMMs, different algos, our chosen algo
+  - Market Resolution:
+    - What is an Oracle: 'market-resolution/what-is-an-oracle.md' # Details on what an oracle is, our choice, and how it works
+    - Resolution Sources: 'market-resolution/resolution-sources.md' # Details on resolution sources
+    - How Markets Resolve: 'market-resolution/how-markets-resolve.md'
+    - What is a Dispute: 'market-resolution/what-is-a-dispute.md'
+    - Dispute Arbitration: 'market-resolution/dispute-arbitration.md'
+  - Withdraw from Your Account: 'withdraw-from-your-account.md' # Only one method. Simple, instant, free.
+  # - Creating a Market:
+    # - How to Create a Market: 'creating-a-market/how-to-create-a-market.md' # Basic details on creating a market
+    # - How to Create a GOOD Market: 'creating-a-market/how-to-create-a-good-market.md' # Advanced details on creating a market
+    # - Initial Liquidity: 'creating-a-market/initial-liquidity.md'
+  - $MYRIAD Utility Token:
+    - What is $MYRIAD: 'myriad-utility-token/what-is-myriad.md'
+    - Why Do I Need $MYRIAD: 'myriad-utility-token/why-do-i-need-myriad.md'
+  - Security:
+    - How We Keep You Safe: 'security/how-we-keep-you-safe.md' # Smart accounts, security audits, monitoring, etc.
+    - How to Keep Yourself Safe: 'security/how-to-keep-yourself-safe.md' # Basic on-chain security tips (don't share your seed phrase, etc.)
+    - Reporting a Security Issue: 'security/reporting-a-security-issue.md'
+  # - Developers: # Details on how to build on top of Myriad
+    # - Getting Started: 'developers/getting-started.md' # How to get started
+    # - API Reference: 'developers/api-reference.md' # Details on the API
+    # - SDKs: 'developers/sdks.md' # Details on the SDKs
+    # - Smart Contracts: 'developers/smart-contracts.md' # Details on the smart contracts
+    # - Integrations: 'developers/integrations.md' # Details on integrations
+  - Support:
+    - Contact Us: 'support/contact-us.md'
+    - Report a Bug: 'support/report-a-bug.md'
+    - Request a Feature: 'support/request-a-feature.md'
+    - Join the Community: 'support/join-the-community.md'
+  - Jobs and Careers: 'jobs-and-careers.md'
