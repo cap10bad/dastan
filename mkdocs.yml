@@ -1,4 +1,4 @@
-site_name: Myriad Predictions Market
+site_name: myriad-prediction-market
 nav:
   - Home: index.md
 plugins:
