@@ -2,11 +2,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: dastan
+  name: myriad-prediction-market
   description: The future of digital media
   github.com/project-slug: cap10bad/dastan
   annotations:
     backstage.io/techdocs-ref: dir:.
 spec:
+  type: website
   lifecycle: experimental
   owner: group:devs
+  system: myriad
